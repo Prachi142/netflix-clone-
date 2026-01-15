@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  color: red;
+  font-size: 32px;
+  margin: 20px;
+}
+
+.genre-title {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.genre-row {
+  display: flex;
+  overflow-x: auto;       /* horizontal scroll */
+  gap: 15px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.movie-container {
+  display: flex;
+  gap: 15px;
+  flex: none;
+}
+
+.movie-card {
+  width: 150px;     /* normal size */
+  flex-shrink: 0;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.movie-card p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+}
